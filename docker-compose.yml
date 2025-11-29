@@ -1,0 +1,50 @@
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mrg
+      MONGO_INITDB_ROOT_PASSWORD: pppppp
+    volumes:
+      - mongo_data:/data/db
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"
+    command: redis-server --requirepass pppppp
+    volumes:
+      - redis_data:/data
+
+
+  backend:
+    build: ./backend
+    ports:
+      - "5001:5001"
+    environment:
+      MONGODB_URI: mongodb://mrg:pppppp@mongo:27017/chatapp?authSource=admin
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: pppppp
+      JWT_SECRET: 16f0f9428c273611cf6ed75876fcdd4ee2ef2a2a20f46eec5a1066fa9f2d362b57f3bdac118c6337e6a5cb21228386e93bbb911663c8b45b4df344d87dc34cf6
+      CLIENT_URL: http://localhost:3000
+      API_URL: http://localhost:5001
+    depends_on:
+      - mongo
+      - redis
+    volumes:
+      - ./backend/models:/app/models
+      - ./backend/uploads:/app/uploads
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+
+volumes:
+  mongo_data:
+  redis_data:
