@@ -38,7 +38,6 @@ These are some screenshots of the app.
 ### Core Messaging
 - Real-time messaging with Socket.IO
 - Private one-on-one conversations
-- Friend Requests
 - Group chat creation and management
 - Message status indicators (sent, delivered, read)
 - Typing indicators
