@@ -1,16 +1,44 @@
 # Chatapp - Real-Time Messaging Platform
 
-A full-stack real-time chat application with an intelligent friend recommendation system powered by Graph Attention Networks (GAT), built with React, Node.js, Socket.IO, MongoDB, and Redis.
+A full-stack real-time chat application with a friend recommendation system powered by Graph Attention Networks (GAT), built with React, Node.js, Socket.IO, MongoDB, and Redis.
+
+---
 
 ## Overview
 
 ChatApp is a modern messaging platform that enables users to communicate through private chats and group conversations. The application features real-time messaging, voice messages, file sharing, and an intelligent friend recommendation system powered by Graph Attention Networks (GAT).
+
+---
+
+## Layout
+
+These are some screenshots of the app.
+
+<p align="center">
+  <img src="screens/welcome.png" alt="welcome" width="45%"/>
+  <img src="screens/main.png" alt="main" width="45%"/>
+</p>
+
+
+<p align="center">
+  <img src="screens/frRequest.png" alt="friend request" width="45%"/>
+  <img src="screens/voice.png" alt="voiceMessage and Dark mode" width="45%"/>
+
+</p>
+
+<p align="center">
+  <img src="screens/search.png" alt="search" width="45%"/>
+  <img src="screens/profile.png" alt="profile" width="45%"/>
+</p>
+
+---
 
 ## Features
 
 ### Core Messaging
 - Real-time messaging with Socket.IO
 - Private one-on-one conversations
+- Friend Requests
 - Group chat creation and management
 - Message status indicators (sent, delivered, read)
 - Typing indicators
