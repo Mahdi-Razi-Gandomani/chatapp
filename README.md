@@ -15,7 +15,7 @@ ChatApp is a modern messaging platform that enables users to communicate through
 These are some screenshots of the app.
 
 <p align="center">
-  <img src="screens/welcome.png" alt="welcome" width="45%"/>
+  <img src="screens/welcome.png" alt="welcome" width="47%"/>
   <img src="screens/main.png" alt="main" width="45%"/>
 </p>
 
