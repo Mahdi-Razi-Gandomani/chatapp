@@ -54,7 +54,7 @@ const audioStorage = multer.diskStorage({
 
 const modelsDir = path.join(__dirname, 'models');
 if (!fs.existsSync(modelsDir)){
-  fs.mkdirSync(modelsDir, {recursive: tru});
+  fs.mkdirSync(modelsDir, {recursive: true});
 }
 
 const audioUpload = multer({
