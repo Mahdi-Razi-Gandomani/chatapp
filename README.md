@@ -15,13 +15,13 @@ ChatApp is a modern messaging platform that enables users to communicate through
 These are some screenshots of the app.
 
 <p align="center">
-  <img src="screens/welcome.png" alt="welcome" width="47%"/>
+  <img src="screens/welcome.png" alt="welcome" width="45%"/>
   <img src="screens/main.png" alt="main" width="45%"/>
 </p>
 
 
 <p align="center">
-  <img src="screens/frRequest.png" alt="friend request" width="47%"/>
+  <img src="screens/frRequest.png" alt="friend request" width="45%"/>
   <img src="screens/voice.png" alt="voiceMessage and Dark mode" width="45%"/>
 
 </p>
