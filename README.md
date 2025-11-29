@@ -21,7 +21,7 @@ These are some screenshots of the app.
 
 
 <p align="center">
-  <img src="screens/frRequest.png" alt="friend request" width="45%"/>
+  <img src="screens/frRequest.png" alt="friend request" width="47%"/>
   <img src="screens/voice.png" alt="voiceMessage and Dark mode" width="45%"/>
 
 </p>
