@@ -182,6 +182,7 @@ chatapp/
 │   │   └── index.html            # HTML template
 │   ├── package.json              # Frontend dependencies
 │   └── Dockerfile                # Frontend container configuration
+├── .dockerignore
 └── docker-compose.yml            # container
 ```
 
