@@ -26,8 +26,7 @@ ChatApp is a modern messaging platform that enables users to communicate through
 - Friend list management
 - User search functionality
 
-### AI-Powered Features
-- Graph Attention Network (GAT) based friend recommendations
+### Graph Attention Network (GAT) based friend recommendations
 - Automatic model retraining every 24 hours
 - Personalized suggestions based on user behavior and network patterns
 
